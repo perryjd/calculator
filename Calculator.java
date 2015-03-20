@@ -70,7 +70,7 @@ class InToPost {
 			}
 		}
 		while (!theStack.isEmpty()) {
-			output += theStack.pop();
+			output = output + theStack.pop() + " ";
 		}
 		return output;
 	}
